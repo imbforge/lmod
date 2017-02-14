@@ -1,0 +1,7 @@
+java.lang.ClassNotFoundException: bpipe.Runner
+	at org.codehaus.groovy.tools.RootLoader.findClass(RootLoader.java:179)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at org.codehaus.groovy.tools.RootLoader.loadClass(RootLoader.java:151)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:99)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
