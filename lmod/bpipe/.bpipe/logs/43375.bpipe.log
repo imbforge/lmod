@@ -1,0 +1,5 @@
+bpipe.Runner	[1]	INFO	|6:21:25 Starting 
+bpipe.Runner	[1]	INFO	|6:21:25 OS: Linux (3.16.0-0.bpo.4-amd64) Java: 1.8.0_101 Vendor: Oracle Corporation 
+bpipe.Runner	[1]	INFO	|6:21:25 Initializing plugins ... 
+bpipe.Config	[1]	INFO	|6:21:25 No plugins directory found: /fsimb/common/tools/modulefiles/bpipe/.bpipe/plugins 
+bpipe.Runner	[25]	INFO	|6:21:25 Deleting job file /home/ssayolsp/.bpipedb/jobs/43375 

@@ -1,0 +1,12 @@
+whatis("FastQ Screen")
+whatis("Version: 0.11.3")
+local TOOL_DEPENDENCIES = "/fsimb/common/tools/"
+load("bowtie/1.1.2","bowtie2")
+prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"perl/Math-CDF-0.1/lib/perl5/x86_64-linux-gnu-thread-multi/"))
+prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"perl/Parallel-ForkManager-1.06/lib/perl5/"))
+prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"perl/Statistics-TTest-1.1/lib/perl5/"))
+prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"perl/GD-2.11/GD"))
+prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"perl/perl5lib/share/perl"))
+prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"perl/GDGraph-1.44/Graph"))
+prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"perl/GDGraph-1.44/Graph"))
+prepend_path("PATH",pathJoin(TOOL_DEPENDENCIES,"fastq_screen/0.11.3"))

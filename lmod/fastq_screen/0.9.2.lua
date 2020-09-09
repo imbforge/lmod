@@ -2,7 +2,6 @@ whatis("FastQ Screen")
 whatis("Version: 0.9.2")
 local TOOL_DEPENDENCIES = "/fsimb/common/tools/"
 load("bowtie","bowtie2")
-prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"diffReps/1.55.4/lib"))
 prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"perl/Math-CDF-0.1/lib/perl5/x86_64-linux-gnu-thread-multi/"))
 prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"perl/Parallel-ForkManager-1.06/lib/perl5/"))
 prepend_path("PERL5LIB",pathJoin(TOOL_DEPENDENCIES,"perl/Statistics-TTest-1.1/lib/perl5/"))

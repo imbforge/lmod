@@ -1,5 +1,0 @@
-bpipe.Runner	[1]	INFO	|3:28:32 Starting 
-bpipe.Runner	[1]	INFO	|3:28:32 OS: Linux (3.16.0-0.bpo.4-amd64) Java: 1.8.0_101 Vendor: Oracle Corporation 
-bpipe.Runner	[1]	INFO	|3:28:32 Initializing plugins ... 
-bpipe.Config	[1]	INFO	|3:28:32 No plugins directory found: /fsimb/groups/imb-bioinfocf/common-data/tools/modulefiles/bpipe/.bpipe/plugins 
-bpipe.Runner	[25]	INFO	|3:28:32 Deleting job file /home/sridewi1/.bpipedb/jobs/22004 

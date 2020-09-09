@@ -1,5 +1,12 @@
 whatis("Java programming language")
 whatis("Version: 1.8.0_101")
 local TOOL_DEPENDENCIES = "/fsimb/common/tools/"
+local JAVA_HOME = pathJoin(TOOL_DEPENDENCIES, "jdk/1.8.0_101/")
 prepend_path("PATH",pathJoin(TOOL_DEPENDENCIES,"jdk/1.8.0_101/bin"))
 prepend_path("JAVA_HOME",pathJoin(TOOL_DEPENDENCIES,"jdk/1.8.0_101/"))
+prepend_path("LD_LIBRARY_PATH", pathJoin(JAVA_HOME, "lib/amd64/"))
+prepend_path("LD_LIBRARY_PATH", pathJoin(JAVA_HOME, "lib/amd64/server/"))
+setenv("JAVA_JRE", pathJoin(JAVA_HOME, "/bin/"))
+setenv("JAVA_CPPFLAGS", "-I" .. JAVA_HOME .. " -I" .. JAVA_HOME .. "/lib")
+setenv("JAVA", pathJoin(JAVA_HOME, "/bin/java"))
+setenv("JAVA_LIBS", "-L" .. JAVA_HOME .. "lib/amd64/server -ljvm")
